@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+		<script>
+      $(document).ready(function(){
+        $("#fadeOut").click(function(){
+          $("p").slideDown(2000);
+        });
+        
+        $("#fadeIn").click(function(){
+          $("p").slideUp(2000);      
+        });
+      });
+			
+		</script>
+	</head>
+
+	<body>
+    <p>Hi! I'm paragraph!</p>
+    <button id="fadeIn">Slide Down</button>
+    <button id="fadeOut">Slide Up</button>
+	</body>
+</html>
