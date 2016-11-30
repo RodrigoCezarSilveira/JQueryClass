@@ -1,3 +1,3 @@
 # JQueryClass
 
-Just a set of JQuery examples for class.
+Just a set of JQuery examples for a class.
